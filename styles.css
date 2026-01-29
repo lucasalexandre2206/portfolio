@@ -293,3 +293,62 @@ h1 {
         transform: translateY(-20px);
     }
 }
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+    .botoes-projeto {
+        flex-direction: column;
+    }
+} 
+
+@media (max-width: 768px) {
+
+    /* MENU */
+    .menu {
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .menu-link {
+        font-size: 14px;
+    }
+
+    /* CABEÇALHO */
+    .foto-perfil {
+        width: 200px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .cabecalho-sub-titulo {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    /* SOBRE */
+    .sobre-titulo {
+        font-size: 2.2rem;
+    }
+
+    .sobre-paragrafo {
+        font-size: 1rem;
+    }
+
+    /* PROJETOS */
+    .projetos-titulo {
+        font-size: 2.2rem;
+    }
+
+    .projetos-caixa {
+        grid-template-columns: 1fr;
+    }
+
+    /* CONTATO */
+    .contatos-titulo {
+        font-size: 2.2rem;
+    }
+}
